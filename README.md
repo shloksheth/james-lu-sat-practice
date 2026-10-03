@@ -23,3 +23,6 @@ The original practice was independently authored from the course topics. It is n
 
 Publish from the `main` branch and `/ (root)` folder. The site is plain HTML, CSS, and JavaScript and requires no build command. Open `index.html` through GitHub Pages, or run a local static web server to preview it.
 
+
+## Interactive course
+The homepage offers Course, Daily Practice and Section Tests. All 199 original PDF questions are split into 24 video-specific lessons with answer checking, explanations, first-attempt results and retries. Profiles save progress in localStorage on the current browser; backups can be exported and imported. No online authentication or cloud sync. Videos use original Loom/YouTube embeds and may require source-site access. Section tests use a live bank iframe; their answer/scoring data cannot be read by this independent site. Bank navigation is remembered per local profile.

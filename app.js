@@ -1,8 +1,9 @@
 "use strict";
-const storageKey='james-lu-sat-place-v1';
+let profileId='default';try{profileId=JSON.parse(localStorage.getItem('jl-sat-profiles-v1'))?.active||'default'}catch{}
+const storageKey='james-lu-sat-place-v1-'+profileId;
 let saved={section:0,positions:[0,0,0,0]};
 try{const parsed=JSON.parse(localStorage.getItem(storageKey));if(parsed && Number.isInteger(parsed.section) && parsed.section>=0 && parsed.section<TESTS.length && Array.isArray(parsed.positions) && parsed.positions.length===TESTS.length && parsed.positions.every((p,i)=>Number.isInteger(p)&&p>=0&&p<TESTS[i].items.length))saved=parsed;}catch{}
-let section=saved.section;
+let section=saved.section;const requested=location.hash.slice(1);if(/^[0-3]$/.test(requested))section=Number(requested);
 const frame=document.querySelector('#question'),jump=document.querySelector('#jump');
 const details=['Equations, systems, inequalities, functions, and circles','Clause boundaries, punctuation, verb forms, and sentence structure','Data analysis, probability, statistics, geometry, and trigonometry','Evidence, inference, vocabulary, text purpose, and transitions'];
 const icons=['ƒ','Aa','△','≡'],minutes=[45,30,50,35];
@@ -29,3 +30,5 @@ const library=document.createElement('a');
 library.className='library-link';library.href='Start_Here.html';library.target='_blank';library.rel='noopener';library.textContent='Daily PDFs & study guide ↗';
 document.querySelector('.course-note').after(library);
 const libraryStyle=document.createElement('link');libraryStyle.rel='stylesheet';libraryStyle.href='library.css';document.head.append(libraryStyle);
+
+const home=document.createElement('a');home.href='index.html#home';home.className='library-link';home.textContent='Back to home & course';document.querySelector('.brand').after(home);
