@@ -29,6 +29,6 @@ jump.onchange=()=>goQuestion(Number(jump.value));render();
 const library=document.createElement('a');
 library.className='library-link';library.href='Start_Here.html';library.target='_blank';library.rel='noopener';library.textContent='Daily PDFs & study guide ↗';
 document.querySelector('.course-note').after(library);
-const libraryStyle=document.createElement('link');libraryStyle.rel='stylesheet';libraryStyle.href='library.css?v=3';document.head.append(libraryStyle);
+const libraryStyle=document.createElement('link');libraryStyle.rel='stylesheet';libraryStyle.href='library.css?v=5';document.head.append(libraryStyle);
 
 const home=document.createElement('a');home.href='index.html#home';home.className='library-link';home.textContent='Back to home & course';document.querySelector('.brand').after(home);

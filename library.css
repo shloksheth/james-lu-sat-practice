@@ -1,3 +1,5 @@
 .library-link{display:block;margin:18px 6px 0;color:#297a79;font-size:12px;font-weight:600;text-decoration:none}.library-link:hover{text-decoration:underline}@media(max-width:700px){.library-link{margin:12px 3px 0}}
 
 :root{--ink:#193c39;--muted:#64736d;--line:#dce3d8;--teal:#216751}body{background:#f8f8f2}.library-link{color:#216751}.section-button[aria-pressed="true"]{background:#edf2e7;border-color:#b2c7b8}.section-icon{color:#216751}.test-surface{border-radius:6px}.brand svg rect{fill:#193c39}
+
+:root{--ink:#253044;--muted:#596575;--line:#dfe2e6;--teal:#1865f2}body{background:#fafafa}.sidebar{background:#fff}.brand svg rect{fill:#10254a}.library-link{color:#1865f2}.section-button{border-radius:4px}.section-button[aria-pressed="true"]{background:#edf4ff;border-color:#cadbf7}.section-icon{color:#596575;border-radius:3px}.section-button[aria-pressed="true"] .section-icon{background:#1865f2;color:#fff;border-color:#1865f2}.navigation .primary{background:#1865f2;border-color:#1865f2}.test-surface{border-radius:4px;box-shadow:none}.course-note{border-radius:4px}.test-header h1{font-size:30px}
