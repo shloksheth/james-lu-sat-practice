@@ -52,31 +52,35 @@ All 64 answer keys were independently checked with exact rational arithmetic, di
 5. Rational identity and domain
 6. Invariant across a system
 7. Function input and positivity
-8. Admissible regression roots
+8. Positive-parameter scalar regression
 9. Factored polynomial identity
-10. Roots and model scaling
+10. Quadratic coefficient recovery
 11. Simultaneous nonlinear constraints
 12. List order and all constraints
 13. Polynomial identity beyond quadratics
-14. Rational identity and excluded inputs
+14. Rational identity by regression
 15. Integer factor structure
 16. Exponential identities and common bases
 17. Known intersection coordinate
 18. Regressing a composed input
 19. Radical equation and extraneous solution
 20. Tangency and minimum parameter
-21. Underdetermined parameters and invariant
+21. Structured polynomial with enough constraints
 22. Overconstraint and nonzero residuals
 23. Quadratic outlier at the center: coefficient changes
 24. Off-center outlier: opposite coefficient changes
 25. Factor condition as a parameter constraint
-26. Linear versus exponential context
-27. Exponent time units
+26. Compare fitted growth models
+27. Recover a growth-period parameter
 28. Inverse exponential input
-29. Degenerate exponential data
+29. Offset exponential with separated inputs
 30. Reciprocal model fitting
 31. Radical model: square outputs carefully
 32. Fitted quadratic to root information
+
+## Explicit regression explanations
+
+Every Part 2 question includes setup instructions, exact entries to type on separate lines, and a result/domain check after answer submission. Seven earlier interpretation or insufficient-data exercises have been replaced with solvable parameter-fitting questions. The inconsistent-system exercise remains intentionally focused on nonzero regression error. Some questions require a factor-theorem, identity, or root relationship before fitting; those preprocessing steps are stated explicitly. Changed questions have new IDs to preserve the meaning of saved progress.
 
 ## Sources used for the coverage audit
 
