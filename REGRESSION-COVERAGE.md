@@ -80,7 +80,28 @@ All 64 answer keys were independently checked with exact rational arithmetic, di
 
 ## Explicit regression explanations
 
-Every Part 2 question includes setup instructions, exact entries to type on separate lines, and a result/domain check after answer submission. Seven earlier interpretation or insufficient-data exercises have been replaced with solvable parameter-fitting questions. The inconsistent-system exercise remains intentionally focused on nonzero regression error. Some questions require a factor-theorem, identity, or root relationship before fitting; those preprocessing steps are stated explicitly. Changed questions have new IDs to preserve the meaning of saved progress.
+All 64 questions across Part 1 and Part 2 include setup instructions, entries to enter on separate lines, and a result/domain check after answer submission. Leave fitted parameter letters undefined, start a fresh calculation when old definitions conflict, and check the original conditions after fitting. The explanations distinguish exact interpolation from noisy least-squares fitting and an inconsistent system with nonzero residuals.
+
+Some questions require symmetry, a factor theorem, an identity, a root relationship, or a units conversion before or after fitting; those steps are stated explicitly. When a question already supplies its model or asks a conceptual question, any convenient demonstration points are labeled as samples or illustrations rather than additional observed data. Seven earlier interpretation or insufficient-data exercises in Part 2 were replaced with solvable parameter-fitting questions. Changed questions have new IDs to preserve the meaning of saved progress.
+
+Part 1 Question 24 now explicitly supplies **two distinct points on a nonvertical line**. This condition is needed to determine a unique slope; the individual standard-form coefficients still have a common scaling ambiguity.
+
+The copy controls use clipboard-safe LaTeX for parameter restrictions, including visible restriction braces, grouped exponents, and paired list delimiters. The readable entries remain available for manual typing. Type or paste each line separately; a definition such as `a=1` would fix that parameter instead of letting the regression fit it.
+
+## Actual Desmos screenshots
+
+Six representative demonstrations were performed in the [College Board version of the Desmos calculator](https://www.desmos.com/testing/cb-digital-sat/graphing): three for Part 1 and three for Part 2. The screenshots show the real calculator interface, fitted parameters, requested outputs, and relevant graphs. They are examples of particular questions, not a claim that every one of the 64 entries was executed in the browser.
+
+| Lesson and question | Demonstration | Verified visible result | Screenshot |
+| --- | --- | --- | --- |
+| Part 1, Q12 | Exact quadratic through three supplied points | a=1, b=−7, c=14; f(0)=14 | [Quadratic fit](assets/desmos-quadratic-three-points.png) |
+| Part 1, Q18 | Offset exponential decay with restrictions | a=12, b=0.5, c=9; 2c=18 | [Offset exponential](assets/desmos-offset-exponential-decay.png) |
+| Part 1, Q21 | Noisy least-squares line and prediction | m=1.5, b=2.5; prediction at x=4 is 8.5 | [Noisy line](assets/desmos-noisy-linear-prediction.png) |
+| Part 2, Q11 | Two simultaneous unknown constraints | a=2, b=5; a²+b²=29 | [Simultaneous constraints](assets/desmos-two-unknown-constraints.png) |
+| Part 2, Q20 | Radical tangency and minimum parameter | v=39.5, k=39.75; 4k=159; original intersection at (39.5,0.5) | [Radical tangency](assets/desmos-radical-tangency-minimum.png) |
+| Part 2, Q23 | Quadratic fit before and after removing (0,12) | Before: a=1, c=8.4. After: r=2, s=5 | [Outlier comparison](assets/desmos-quadratic-outlier-both-fits.png) |
+
+The outlier screenshot uses different letters for the second fit so both parameter panels remain visible: r is the refitted a and s is the refitted c. All six images were visually checked at their saved resolution. Required parameter/output panels are unobscured, the plotted points and curves match their stated models, and the tangency graph shows the original radical rather than only its squared equation.
 
 ## Sources used for the coverage audit
 
