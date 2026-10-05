@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Monthly library visits before and after a hypothetical program</title>
+  <desc id="desc">A grouped bar graph for the same 100 participants in both periods. The horizontal axis gives monthly library visit categories: 0 to 2 visits, 3 to 5 visits, and 6 to 8 visits. The vertical axis is number of participants. Before the program the category counts are 20, 50, and 30. After the program they are 35, 20, and 45. Before bars are navy; after bars are pale teal with a dark teal outline.</desc>
+  <rect width="900" height="650" rx="16" fill="#fff"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#152d4b">
+    <text x="450" y="42" text-anchor="middle" font-size="28" font-weight="700">Monthly library visits</text>
+    <g font-size="23">
+      <rect x="240" y="68" width="28" height="22" fill="#203d68"/>
+      <text x="282" y="88">Before program</text>
+      <rect x="513" y="68" width="28" height="22" fill="#acdfe0" stroke="#087d85" stroke-width="2"/>
+      <text x="555" y="88">After program</text>
+    </g>
+    <g stroke="#dde5ef" stroke-width="1.5">
+      <line x1="130" y1="130" x2="805" y2="130"/><line x1="130" y1="190" x2="805" y2="190"/>
+      <line x1="130" y1="250" x2="805" y2="250"/><line x1="130" y1="310" x2="805" y2="310"/>
+      <line x1="130" y1="370" x2="805" y2="370"/><line x1="130" y1="430" x2="805" y2="430"/>
+      <line x1="130" y1="490" x2="805" y2="490"/>
+    </g>
+    <g stroke="#526477" stroke-width="2">
+      <line x1="130" y1="125" x2="130" y2="490"/><line x1="130" y1="490" x2="815" y2="490"/>
+    </g>
+    <g font-size="23" text-anchor="end">
+      <text x="112" y="138">60</text><text x="112" y="198">50</text><text x="112" y="258">40</text>
+      <text x="112" y="318">30</text><text x="112" y="378">20</text><text x="112" y="438">10</text>
+      <text x="112" y="498">0</text>
+    </g>
+    <text x="45" y="310" transform="rotate(-90 45 310)" text-anchor="middle" font-size="25">Number of participants</text>
+    <g fill="#203d68">
+      <rect x="190" y="370" width="56" height="120"/><rect x="410" y="190" width="56" height="300"/>
+      <rect x="630" y="310" width="56" height="180"/>
+    </g>
+    <g fill="#acdfe0" stroke="#087d85" stroke-width="2">
+      <rect x="260" y="280" width="56" height="210"/><rect x="480" y="370" width="56" height="120"/>
+      <rect x="700" y="220" width="56" height="270"/>
+    </g>
+    <g font-size="23" font-weight="700" text-anchor="middle">
+      <text x="218" y="355">20</text><text x="288" y="265">35</text>
+      <text x="438" y="175">50</text><text x="508" y="355">20</text>
+      <text x="658" y="295">30</text><text x="728" y="205">45</text>
+    </g>
+    <g font-size="23" text-anchor="middle">
+      <text x="253" y="528">0–2 visits</text><text x="473" y="528">3–5 visits</text>
+      <text x="693" y="528">6–8 visits</text>
+      <text x="470" y="574" font-size="25">Visits per participant per month</text>
+    </g>
+    <text x="450" y="617" text-anchor="middle" font-size="19" fill="#536779">The same 100 participants are counted once in each period.</text>
+  </g>
+</svg>
